@@ -1,0 +1,137 @@
+body {
+  background-color: #000000;
+  color:#ffffff;
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+}
+
+.button {
+  display: flex;
+  text-decoration: none;
+  transition: 0.5s;
+  border: none;
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+  contrast(87%);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.wrapper-header {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.logo-btn {
+  background-image: url('./assets/svg/logo1.svg');
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 50px;
+  color: #ffffff;
+}
+
+.buttons-bird {
+  display: flex;
+  width: 600px;
+  justify-content: space-around;
+}
+
+.active {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+  contrast(87%);
+}
+
+.photo-background {
+  background-image: url('./assets/img/forest.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: calc(100vh - 120px);
+  min-height: 280px;
+  background-size: cover;
+}
+
+.play-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15%;
+}
+
+.play-pause {
+  background-image: url('./assets/svg/play.svg');
+  background-repeat: no-repeat;
+  width: 135px;
+  height: 135px;
+  display: flex;
+  text-decoration: none;
+  transition: 0.5s;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.play-pause:hover {
+  filter: grayscale(100%) opacity(50%);
+}
+
+.pause {
+  background-image: url('./assets/svg/pause.svg');
+  background-repeat: no-repeat;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.wrapper-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.github {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.5s;
+  cursor: pointer;
+  font-family: Inter;
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.github:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+  contrast(87%);
+}
+
+.time {
+  margin-top: 20px;
+}
+
+.rs-logo {
+  margin-top: 5px;
+}
+
+.rs-logo:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+  contrast(87%);
+}
